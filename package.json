@@ -1,0 +1,29 @@
+{
+  "name": "csv-processor",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A CLI tool for basic CSV file processing and editing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallacepreston/csv-processor.git"
+  },
+  "keywords": [],
+  "author": "Preston Wallace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wallacepreston/csv-processor/issues"
+  },
+  "volta": {
+    "node": "16.13.1"
+  },
+  "dependencies": {
+    "csv": "6.0.5",
+    "lodash": "4.17.21",
+    "nodemon": "2.0.15"
+  }
+}
